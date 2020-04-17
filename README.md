@@ -25,4 +25,6 @@ Esse repositório tem a finalidade de armazenar códigos relacionados a mentoria
    - O somatório dos itens deve ser feito usando composição dentro do Pedido
    - Criar um segundo objeto de pedido chamado PedidoComDesconto que deve ser uma extensão do Pedido
    - O PedidoComDesconto deve sobrecarregar o somatório dos itens aplicando um desconto específico sobre o valor final
+   - **EXTRA**: Faça testes unitários para os métodos com lógica como o somátorio de pedidos
 
+[Solução nesta pasta (https://github.com/ldiasrs/mentoria/tree/master/orientacao_objetos/src/main/java/com/thoughtworks/orientacaoobjetos)
