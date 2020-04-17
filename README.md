@@ -34,8 +34,8 @@ Esse repositório tem a finalidade de armazenar códigos relacionados a mentoria
    - Fazer um sistema de envio de mensagens
    - Um aplicativo envia mensagens
    - Uma mensagem tem como atributos: um texto, um destinatario, um remetente e um tipo que pode ser [SMS, EMAIL] (podem usar enumeração aqui, enum)
-   - Criar uma interface **EnviadorDeMensagens** com método enviarMsg que tem um argumento um objeto de mensagem
-   - Criar uma implementação para o EnviadorDeMensages: **SMSEnviadorDeMensagens**
+   - Criar uma interface **EnviadorDeMensagens** com método **enviarMsg** que tem um argumento: um objeto da classe Mensagem
+   - Criar uma implementação para a interface EnviadorDeMensages chamado: **SMSEnviadorDeMensagens**
    - Essa implementação deve imprimir na tela
    
     Para: <destinatario>
@@ -44,7 +44,7 @@ Esse repositório tem a finalidade de armazenar códigos relacionados a mentoria
     <texto>
     Mensagem enviada por SMS
     
-   - Criar uma implementação para o EnviadorDeMensages: **EMAILEnviadorDeMensagens**
+   - Criar outra implementação para o EnviadorDeMensages chamado: **EMAILEnviadorDeMensagens**
    - Essa implementação deve imprimir na tela
    
     Para: <destinatario>
@@ -63,7 +63,7 @@ Esse repositório tem a finalidade de armazenar códigos relacionados a mentoria
  
    1) Instanciar 100 mensagens SMS com texto diferente (dica: usem for e indexador concatenado a mensagem)
    2) Instanciar 50 mensagens EMAIL com texto diferente (dica: usem for e indexador concatenado a mensagem)
-   3) Chamar a classe EnviadorDeMenssagensFactory para buscar o enviador de mensagem mandando o tipo da mensagem
+   3) **Chamar a classe EnviadorDeMenssagensFactory** para buscar o enviador de mensagem mandando o tipo da mensagem
    4) **Chamar** o método de **enviarMsg** do EnviadorDeMenssagens mandando a mensagem
    5) Ao final todas as mensagens devem ser imprimidas na tela
    
