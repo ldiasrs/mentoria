@@ -27,7 +27,7 @@ Esse repositório tem a finalidade de armazenar códigos relacionados a mentoria
    - O PedidoComDesconto deve sobrecarregar o somatório dos itens aplicando um desconto específico sobre o valor final
    - **EXTRA**: Faça testes unitários para os métodos com lógica como o somátorio de pedidos
 
-[Solução nesta pasta](https://github.com/ldiasrs/mentoria/tree/master/orientacao_objetos/src/main/java/com/thoughtworks/orientacaoobjetos)
+[Solução nesta pasta](https://github.com/ldiasrs/mentoria/tree/master/orientacao_objetos_exercicio_1/src/main/java/com/thoughtworks/orientacaoobjetos)
 
 ## Orientação a objetos - Exercício 2
 **Especificação**
